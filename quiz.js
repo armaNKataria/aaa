@@ -116,6 +116,16 @@
       correctAnswer: "a"
     },
     {
+      question: "What makes a data structure ‘thread safe’?",
+      answers: {
+        a: "When it allows data races",
+        b: "When a data structure has a lock added",
+        c: "When a data structure does not have a lock",
+        d: "When a data structure has no threads"
+      },
+      correctAnswer: "b"
+    },
+    {
       question: "What are the operations associated with condition variables?",
       answers: {
         a: "Await()",
@@ -135,6 +145,35 @@
       correctAnswer: "b"
     },
     {
+      question: "What is perfect scaling?",
+      answers: {
+        a: "Threads working solely",
+        b: "Threads working in parallel",
+        c: "Having optimal performance efficiency",
+        d: "When a data structure is thread safe"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "When can a lock be released?",
+      answers: {
+        a: "When the Signal() condition has been met",
+        b: "When the thread has been put to sleep",
+        c: "When the thread has woken up"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "What is a disadvantage of using a concurrent approximate counter?",
+      answers: {
+        a: "The counter is can be inaccurate",
+        b: "Cannot count large amounts of events",
+        c: "It causes bugs in counter scalability on multicore machines",
+        d: "Uses a large amount of memory"
+      },
+      correctAnswer: "a"
+    },
+    {
       question: "What are the criteria that a lock has to meet in order to evaluate its effectiveness? ",
       answers: {
         a: "Fairness: does each thread contending for the lock get a fair shot at acquiring it once it is free?",
@@ -152,6 +191,15 @@
         d: "Lock()"
       },
       correctAnswer: "b"
+    },
+    {
+      question: "What is the purpose of the mutex system in the wait() operation?",
+      answers: {
+        a: "To stop Signal() if it has been called without the condition being met",
+        b: "To ensure that Signal() is not called before Wait()",
+        c: "To prevent race conditions from occurring"
+      },
+      correctAnswer: "c"
     }
   ];
 
