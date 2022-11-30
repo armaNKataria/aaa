@@ -116,6 +116,15 @@
       correctAnswer: "a"
     },
     {
+      question: "What are the operations associated with condition variables?",
+      answers: {
+        a: "Await()",
+        b: "Lock()",
+        c: "Signal()"
+      },
+      correctAnswer: "a"
+    },
+    {
       question: "What is one disadvantage with using an interrupt control?",
       answers: {
         a: "It requires a lot of memory and is inefficient",
