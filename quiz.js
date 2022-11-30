@@ -129,17 +129,8 @@
       answers: {
         a: "Unlock()",
         b: "Yield()",
-        c: "Wait()"
-      },
-      correctAnswer: "b"
-    },
-    {
-      question: "What is one disadvantage with using an interrupt control?",
-      answers: {
-        a: "It requires a lot of memory and is inefficient",
-        b: "It does not work on multiple processors.",
-        c: "It is a slow process that takes long",
-        d: "It is prone to bugs and errors"
+        c: "Wait()",
+        d: "Lock()"
       },
       correctAnswer: "b"
     }
