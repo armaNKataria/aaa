@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>JS Quiz Format 1</title>
-   <link rel="stylesheet" href="quiz.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.downloadclipart.net/large/40245-number-28-clipart.png" type="image/png">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Concurrency Interactively</title>
+    <div id="toptopwrap">
+        <tittle>Concurrency Interactively: Quiz</tittle>
+    </div>
 </head>
-<body> 
-    <div class="container">
-       <div class="score">
-           <span id="user-score">0</span>
-       <span> / </span>
-           <span id="total-score">0</span>
-       </div>
-       <div class="content" id="question-area">
-           <div id="question-text"></div>
-           <div class="options">
-               <button class="btn btn-option" id="True">True</button>
-               <button class="btn btn-option" id="False">False</button>
-           </div>
-       </div>
-       <div class="controls">
-           <button class="btn btn-restart" id="restart">Restart</button>
-           <button class="btn btn-prev" id="prev">Prev</button>
-           <button class="btn btn-next" id="next">Next</button>
-           <button class="btn btn-submit" id="submit">Submit</button>
-       </div>
+<nav>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="quiz.html">Quiz</a>
+        <div class="dropdown">
+            <button class="dropbtn">Summary</button>
+                <div class="dropdown-content">
+                <a href="lock_based.html">Lock Based Concurrency</a>
+                <a href="event_based.html">Event Based Concurrency</a>
+                <a href="conditional_variables.html">Conditional Variables</a>
+                <a href="locks.html">Locks</a>
+                <a href="problems.html">Problems</a>
+                <a href="semaphores.html">Semaphores</a>
+        </div>
+    </div>
+</nav>
+<body>
+   <h1>Quiz on Important Facts</h1>
+   <div class="quiz-container">
+   <div id="quiz"></div>
    </div>
+   <button id="previous">Previous Question</button>
+   <button id="next">Next Question</button>
+   <button id="submit">Submit Quiz</button>
+   <div id="results"></div>
    <script src="quiz.js"></script>
 </body>
 </html>
