@@ -112,7 +112,6 @@
         a: "No thread is holding the lock.",
         b: "There is a thread holding the lock.",
         c: "There is no lock in place."
-        d: "The lock can allow more than one thread."
       },
       correctAnswer: "a"
     },
@@ -122,7 +121,6 @@
         a: "Fairness: does each thread contending for the lock get a fair shot at acquiring it once it is free?",
         b: "Safety: does the lock run smoothly, without bugs?",
         c: "Does the lock allow for multicore processing?"
-        d: "Efficiency: does the lock performance efficiency"
       },
       correctAnswer: "a"
     },
@@ -132,7 +130,6 @@
         a: "Unlock()",
         b: "Yield()",
         c: "Wait()"
-        d: "Lock()"
       },
       correctAnswer: "b"
     },
